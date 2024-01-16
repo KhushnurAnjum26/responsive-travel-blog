@@ -113,6 +113,56 @@
     padding-left: 200px;
     margin-top: 50px;
 }
+.p1 {
+    width: 400px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+
+.p2 {
+    width: 532px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.p4 {
+    width: 518px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.p5 {
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+.perfect {
+    display: flex;
+    margin-bottom: 60px;
+}
+.perfect1, .perfect2{
+    margin-bottom: 24px;
+}
+
+
+
+
+
 
 
 /* newsletter section */
@@ -231,7 +281,7 @@
     font-family: Mulish;
     font-size: 1.8rem;
     font-weight: 800;
-    padding-top:132px;
+    padding-top: 132px;
     width: 573px;
     height: 150px;
     border-radius: 16px;
@@ -247,7 +297,7 @@
     font-family: Mulish;
     font-size: 1.8rem;
     font-weight: 800;
-    padding-top:132px;
+    padding-top: 132px;
     width: 573px;
     height: 150px;
     border-radius: 16px;
@@ -263,7 +313,7 @@
     font-family: Mulish;
     font-size: 1.8rem;
     font-weight: 800;
-    padding-top:132px;
+    padding-top: 132px;
     width: 374px;
     height: 150px;
     border-radius: 16px;
@@ -279,7 +329,7 @@
     font-family: Mulish;
     font-size: 1.8rem;
     font-weight: 800;
-    padding-top:132px;
+    padding-top: 132px;
     width: 474px;
     height: 150px;
     border-radius: 16px;
@@ -295,7 +345,7 @@
     font-family: Mulish;
     font-size: 1.8rem;
     font-weight: 800;
-    padding-top:132px;
+    padding-top: 132px;
     width: 274px;
     height: 150px;
     border-radius: 16px;
@@ -312,7 +362,7 @@
     font-family: Mulish;
     font-size: 1.8rem;
     font-weight: 800;
-    padding-top:132px;
+    padding-top: 132px;
     border-radius: 16px;
     width: 473px;
     height: 150px;
@@ -322,9 +372,9 @@
     margin-bottom: 15px;
 }
 
-   
-  
-    
+
+
+
 
 
 .new10 {
@@ -333,7 +383,7 @@
     font-family: Mulish;
     font-size: 1.8rem;
     font-weight: 800;
-    padding-top:132px;
+    padding-top: 132px;
     border-radius: 16px;
     width: 673px;
     height: 150px;
@@ -343,11 +393,14 @@
     margin-bottom: 15px;
 }
 
- 
 
- .new-new, .new4 ,.new8{
+
+.new-new,
+.new4,
+.new8 {
     display: flex;
-} 
+}
+
 /* why section */
 
 .why1 {
@@ -579,24 +632,33 @@
     .why-text {
         margin-left: 450px;
     }
-    .new-new, .new4 ,.new8 {
+
+    .new-new,
+    .new4,
+    .new8 {
         flex-direction: column;
-       
+
     }
 
-    .new1,.new2,.new6,.new9,.new10 {
+    .new1,
+    .new2,
+    .new6,
+    .new9,
+    .new10 {
         width: 100%;
         height: 150px;
         margin-left: 200px;
         background-repeat: no-repeat;
     }
-    .new5{
+
+    .new5 {
         width: 380px;
         height: 150px;
         margin-left: 200px;
         background-repeat: no-repeat;
     }
-    .new7{
+
+    .new7 {
         width: 274px;
         height: 150px;
         height: 150px;
@@ -615,4 +677,11 @@
         width: 1100px;
         margin-left: 200px;
     }
+    .perfect{
+        flex-direction: column;
+    }
+    .perfect1,.perfect2{
+        padding-left: 500px;
+    }
+    
 }
