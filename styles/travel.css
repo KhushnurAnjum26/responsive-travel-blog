@@ -19,9 +19,11 @@
 
 .banner {
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-    width: 1170px;
+    min-width: 1170px;
+    width: 100%;
     height: 500px;
     border-radius: 16px;
+    background-size: cover;
 
 }
 
@@ -123,6 +125,7 @@
     height: 422px;
     border-radius: 16px;
     border: 1px solid #FF5400;
+   margin-bottom: 60px;
 }
 
 .news-head {
@@ -179,6 +182,7 @@
     width: 650px;
     height: 422px;
     border-radius: 16px;
+    margin-bottom: 60px;
 }
 
 /* choose section */
@@ -255,6 +259,7 @@
     background: rgba(251, 181, 99, 0.05);
     padding-left: 32px;
     margin-right: 12px;
+    margin-bottom: 60px;
 }
 
 .pic {
@@ -291,6 +296,7 @@
     background: rgba(41, 206, 246, 0.05);
     padding-left: 32px;
     margin-left: 12px;
+    margin-bottom: 60px;
 }
 
 .why4 {
@@ -301,6 +307,7 @@
     background: rgba(233, 68, 68, 0.05);
     padding-left: 32px;
     margin-top: 24px;
+    margin-bottom: 60px;
 }
 
 
@@ -373,35 +380,75 @@
 
 /* media query */
 @media screen and (max-width:600px) {
-.banner{
-    margin-left: 20px;
-}
+    .banner {
+       margin-left: 200px;
+    }
+
     .inputs {
         flex-direction: column;
-
+        
     }
-
-    .tour {
-        flex-direction: column;
-        padding-left: 300px;
-        width: 100%;
+.tour{
+    flex-direction: column;
+}
+    .tour-text{
+        width: 1170px;
+        font-size: 2rem;
+        padding-left: 500px;
     }
+    .tour-title{
 
-    .tour-text {
-        width: 500px;
+        padding-right: 580px;
     }
-
-    .tour-pic {
-        padding-left: 5px;
+    .tour-pic{
+        width: 1170px;
+        padding-right: 400px;
+       
     }
-
     .newsletter {
         flex-direction: column;
-    
-    }
-    .news-text{
-        margin-left: 300px;
+
     }
 
+    .news-text {
+        width: 1170px;
+        margin-left: 200px;
+    }
 
+.news-head ,.Himg{
+    margin-left: 200px;
+}
+.news2{
+    margin-left: 200px;
+}
+.news-box{
+    margin-left: 150px;
+}
+.news-pic img{
+    width: 1170px;
+    margin-left: 200px;
+    height: 500px;
+}
+.choose ,.why-choose{
+    margin-left: 520px;
+    width: 448px;
+}
+.choose2, .why-text {
+    margin-left: 450px;
+}
+.row{
+    flex-direction: column;
+}
+.row img{
+    width: 1170px;
+    height: 500px;
+    margin-left: 200px;
+}
+.why{
+    flex-direction: column;
+}
+.why2 ,.why3,.why4{
+    width: 1100px;
+    margin-left: 200px;
+}
 }
