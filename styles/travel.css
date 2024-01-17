@@ -17,6 +17,39 @@
 
 }
 
+
+.title-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title5 {
+    margin-right: 550px;
+}
+
+.title-main ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.title-main ul a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
 .banner {
     background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
     width: 1170px;
@@ -47,7 +80,8 @@
 
 .inputs {
     width: 800px;
-
+    align-items: center;
+    justify-content: center;
     display: inline-flex;
     padding: 16px;
     gap: 24px;
@@ -55,12 +89,15 @@
     background: rgba(255, 255, 255, 0.30);
     margin: 30px 185px;
 }
-.ii{
+
+.ii {
     display: inline-flex;
     width: 400px;
     height: 100px;
-   
+    align-items: center;
+
 }
+
 .i1 {
     width: 174px;
     height: 45px;
@@ -70,11 +107,13 @@
     margin-right: 20px;
     align-items: center;
 }
-.im{
+
+.im {
     width: 24px;
-height: 24px;
+    height: 24px;
 }
-.g3{
+
+.g3 {
     color: rgba(19, 19, 24, 0.50);
     font-family: Mulish;
     font-size: 1rem;
@@ -93,7 +132,8 @@ height: 24px;
     background: #FF5400;
     width: 174px;
     height: 45px;
-margin-top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 
@@ -600,27 +640,34 @@ margin-top: 0px;
 
 /* media query */
 @media screen and (max-width:600px) {
-    
-.banner{
-    margin-left: 200px;
-}
 
-    .ii{
+    .banner {
+        margin-left: 200px;
+    }
+    .title-main ul{
+        margin-left: 1100px;
+    }
+
+    .ii {
         flex-direction: column;
         margin-left: 100px;
-        
+
     }
-    .i1{
+
+    .i1 {
         margin-bottom: 15px;
     }
-    .btn-primary2{
+
+    .btn-primary2 {
         height: 30px;
         margin-left: 310px;
     }
+
     .inputs {
         flex-direction: column;
 
     }
+
     .tour {
         flex-direction: column;
     }
@@ -714,9 +761,13 @@ margin-top: 0px;
         background-repeat: no-repeat;
         background-repeat: no-repeat;
     }
-.pic , .title1, .text1{
-    margin-left: 400px;
-}
+
+    .pic,
+    .title1,
+    .text1 {
+        margin-left: 400px;
+    }
+
     .why {
         flex-direction: column;
     }
@@ -732,14 +783,15 @@ margin-top: 0px;
         flex-direction: column;
     }
 
-    .perfect1
-    {
+    .perfect1 {
         padding-left: 500px;
     }
+
     .perfect2 {
         margin-left: 200px;
     }
-    .p5{
+
+    .p5 {
         width: 1170px;
     }
 }
